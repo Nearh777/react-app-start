@@ -1,43 +1,52 @@
 import styled from '@emotion/styled';
 
 export const TransactionHistoryStyled = styled.table`
-  width: 800px;
+  width: 550px;
+  font-family: 'Raleway';
   margin: 0 auto;
-  margin-top: 70px;
   margin-bottom: 70px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+  box-shadow: 10px 10px 13px -5px rgba(173,130,164,0.58);
 `;
 
 export const Table = styled.table`
-  width: 800px;
-  margin: 0 auto;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ padding: 10px;
+  border: 1px solid #2a2a2a;  
+  color: white;
+  background-color: #34ebe1;
 `;
 
 export const TableHead = styled.thead`
-  background-color: #00bcd5;
-  color: #fff;
+  padding: 10px;
+  border: 1px solid #2a2a2a;  
+  color: white;
+  background-color: #34ebe1;
 `;
 
 
 export const TableBody = styled.tbody`
-  background-color: #fff;
-  color: #000;
+  padding: 10px;
+text-align: center;
+border: 1px solid #2a2a2a;
+color: #C3C1C5;
+&::first-letter {
+  font-size: 32px;
+}
 `;
 
 
 export const TableRow = styled.tr`
-  &:nth-child(even) {
+  &:nth-of-type(even) {
     background-color: #ecf1f4;
   }
 `;
 
 
 export const TableData = styled.td`
-  padding: 10px;
-  text-align: center;
+ padding: 10px;
+text-align: center;
+border: 1px solid #2a2a2a;
+color: #C3C1C5;
 `;
 
 
