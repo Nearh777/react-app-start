@@ -53,6 +53,8 @@ color: #C3C1C5;
 export const TableHeadData = styled.th`
   padding: 10px;
   text-align: center;
+  border: 1px solid #2a2a2a;
+  color: #C3C1C5;
 `;
 
 
