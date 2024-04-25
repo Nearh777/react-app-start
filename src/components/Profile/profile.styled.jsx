@@ -1,14 +1,24 @@
 import styled from '@emotion/styled';
 
 export const ProfileStyled = styled.div`
+width: 480px;
+
  display: flex;
   flex-direction: column;
+  
   align-items: center;
   padding: 20px;
+  margin: 0 auto;
+  background-color: hsla(195, 11%, 55%, 0.872);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
 
 export const DescriptionStyled = styled.div`
+
   text-align: center;
+  padding: 20px;
+  background-color: white;
 `;
 
 export const AvatarStyled = styled.img`
@@ -34,7 +44,7 @@ export const LocationStyled = styled.p`
 
 export const StatsStyled = styled.ul`
   display: flex;
-  gap: 10px;
+  
   justify-content: space-between;
   list-style: none;
   padding: 0;
@@ -42,15 +52,19 @@ export const StatsStyled = styled.ul`
 `;
 
 export const StatsItemStyled = styled.li`
+
   display: flex;
   flex-direction: column;
+  width: 5%;
+  
   align-items: center;
-  width: 100%;
+  
+  
 `;
 
 export const LabelStyled = styled.span`
    font-size: 14px;
-  color: #757575;
+  color: white;
 `;
 
 export const QuantityStyled = styled.span`
